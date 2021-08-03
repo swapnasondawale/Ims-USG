@@ -1,0 +1,198 @@
+.main-congrate-container {
+    width: 100vw;
+    height: 100vh;
+    margin:auto;
+    padding: 100px 60px;
+    position: relative;
+    /* background-image: url(../../../assets/images/background.png); */
+}
+.sub-congrate_containerOne {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px; 
+    z-index: 1;
+}
+.inner-one-congrate {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 22px;
+    border-top-left-radius: 22px;
+    border-bottom: 1.5px solid black;
+    border-left: 1.5px solid black;
+    border-top: 1.5px solid black;
+    background-color: darkgrey;
+    margin-left: 1rem;
+}
+.head-cogrates-container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    text-align: left;
+    line-height: 0;
+    padding: 0px 20px;
+}
+.carousel-congrates-container {
+    width: 100%;
+    height: auto;
+    padding: 0%;
+}
+.sub-congrates-containerTwo {
+    padding-right: 20px;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+    border-radius: 22px;
+}
+.inner-congrate-two {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+.logo-container {
+    background: white;
+    width: 50%;
+    padding: 5% 0%;
+    display: flex;
+    align-items: flex-start;
+}
+.congrates-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0%;
+}
+.congrates-title {
+    color: #2C376A;
+    font-family: "SF Pro Rounded";
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.header-register {
+    display: block;
+    justify-content: center;
+}
+.normal-text {
+    color: #72809D;
+    font-family: "SF Pro Rounded";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.congrates-text {
+    text-align: left;
+}
+.congrates-normal-text {
+    display: flex;
+    color: #72809D;
+    font-family: "SF Pro Rounded";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.congrates-list-container {
+    border: 1px soid rgb(36, 35, 35);
+}
+.congrates-wrapper {
+    border: 1px soid red;
+    display: grid;
+    grid-template-columns: auto;
+    width: auto;
+}
+.congrate-selector {
+    /* border: 1px solid green; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    margin-top: 2rem;
+}
+.congrates-list1 {
+    height: 60px;
+    width: 330px;
+    display: grid;
+    grid-template-columns: auto;
+    border: 0.8px solid #D2E3E9;
+    border-radius: 12px;
+    background-color: rgba(255,255,255,0.2);
+}
+.congrates-icon-class {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: blue;
+}
+.congrates-text-class {
+    margin-top: -2.5rem;
+    margin-left:4rem;
+    color: #2C376A;
+    font-family: "SF Pro Rounded";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: left;
+}
+
+@media only screen and (min-width:426px) and (max-width:768px) {
+    .congrates-title {
+        color: #2C376A;
+        font-family: "SF Pro Rounded";
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    .congrates-wrapper {
+        border: 1px soid red;
+        display: grid;
+        grid-template-columns: auto;
+        width: auto;
+    }
+    .congrates-list1 {
+        box-sizing: border-box;
+        height: 60px;
+        width: 300px;
+        border: 0.8px solid #D2E3E9;
+        border-radius: 12px;
+        background-color: rgba(255,255,255,0.2);
+        display: block;
+        grid-template-columns: auto;    
+        border: 0.8px solid #D2E3E9;
+        border-radius: 12px;
+        background-color: rgba(255,255,255,0.2);
+    }
+    .congrates-icon-class {
+        width: 3rem;
+        margin-left: -16rem;
+        margin-top: 0.5rem;
+        color:blue;
+    }
+    .congrates-text-class {
+        /* border: 1px solid green; */
+        margin-top: -2.5rem;
+        margin-left:3rem;
+        color: #2C376A;
+        font-family: "SF Pro Rounded";
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 24px;
+        text-align: left;
+    }
+}
+
